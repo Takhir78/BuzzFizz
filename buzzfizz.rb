@@ -1,13 +1,12 @@
 def buzzfizz(num)
-	# 100.times do
-	
-	# end
-if num % 3 == 0
+	if num % 3 == 0 && num % 5 == 0
+    "Mined Minds"
+    elsif num % 3 == 0
     "Mined"
-  elsif num == 5
+    elsif num % 5 == 0
     "Minds"
-  else
-    num
-  end
+    else
+     num
+    end
 
 end
